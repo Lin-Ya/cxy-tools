@@ -262,7 +262,8 @@ export default {
         line-height: 34px;
 
         ::v-deep(.el-button) {
-            margin-left: 10px;
+            margin-right: 10px;
+            margin-left: 0;
         }
     }
 

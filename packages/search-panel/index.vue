@@ -203,7 +203,8 @@ export default {
 }
 
 .act-button {
-  transform: scale(0.95)
+  transform: scale(0.95);
+  margin-left: 2px!important;
 }
 
 .el-form-item {
