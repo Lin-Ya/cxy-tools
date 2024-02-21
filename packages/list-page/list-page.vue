@@ -226,6 +226,7 @@ export default {
             this.store.updateTableColumns(columnList)
         },
         handleQuery(queryParams) {
+            this.resetPageNumber()
             this.$emit('query', queryParams)
             this.store.updateQueryParams(queryParams)
             this.refresh()

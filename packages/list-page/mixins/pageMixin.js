@@ -17,5 +17,8 @@ export default {
             this.store.updatePageNum(current)
             this.refresh()
         },
+        resetPageNumber() {
+            this.store.updatePageNum(1)
+        }
     },
 }
